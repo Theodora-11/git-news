@@ -1,0 +1,30 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  border: 2px solid black;
+  max-width: 600px;
+  margin-inline: auto
+}
+
+a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: blue;
+  display: block;
+  font-size: 18px;
+}
+
+.hover-link1 {
+  font-size: 20px;
+  color: red;
+}
+
+.hover-link2 {
+  font-size: 20px;
+  color: green;
+}
