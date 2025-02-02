@@ -20,11 +20,23 @@ a {
 }
 
 .hover-link1 {
-  font-size: 20px;
+  font-size: 30px;
   color: red;
 }
 
 .hover-link2 {
-  font-size: 20px;
+  font-size: 30px;
   color: green;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+div > input {
+  margin-bottom: 3%;
+  width: 60%;
+  margin-inline: auto;
 }
