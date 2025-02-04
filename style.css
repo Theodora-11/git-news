@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: wheat;
   text-align: center;
   border: 2px solid black;
   max-width: 600px;
@@ -27,4 +28,5 @@ a {
 .hover-link2 {
   font-size: 20px;
   color: green;
+  border: 2px solid black;
 }
